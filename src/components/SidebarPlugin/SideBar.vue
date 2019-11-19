@@ -28,7 +28,7 @@
                         <a slot="title" class="nav-link" href="#" role="button">
                             <div class="media align-items-center">
                               <span class="avatar avatar-sm rounded-circle">
-                                <img alt="Image placeholder" src="img/theme/team-1-800x800.jpg">
+                                <img alt="Image placeholder" src="">
                               </span>
                             </div>
                         </a>
@@ -38,17 +38,10 @@
                         </div>
                         <router-link to="/profile" class="dropdown-item">
                             <i class="ni ni-single-02"></i>
-                            <span>My profile</span>
+                            <span>My profilsssse</span>
                         </router-link>
-                        <router-link to="/profile" class="dropdown-item">
-                            <i class="ni ni-settings-gear-65"></i>
-                            <span>Settings</span>
-                        </router-link>
-                        <router-link to="/profile" class="dropdown-item">
-                            <i class="ni ni-calendar-grid-58"></i>
-                            <span>Activity</span>
-                        </router-link>
-                        <div class="dropdown-divider"></div>
+                        
+                        <!-- <div class="dropdown-divider"></div> -->
                         <b-button @click="logout" class="dropdown-item">
                             <i class="ni ni-user-run"></i>
                             <span>Logout</span>
@@ -112,9 +105,12 @@
                     <router-link to="/promocode" class="nav-link">
                       <i class="fa fa-user text-info"></i><span class="nav-link-text">Promocode</span>
                     </router-link>
-                    <!-- <router-link to="/user" class="nav-link">
-                      <i class="fa fa-user text-info"></i><span class="nav-link-text">User</span>
-                    </router-link> -->
+                    <router-link to="/usernotification" class="nav-link">
+                      <i class="fa fa-user text-info"></i><span class="nav-link-text">User Notification</span>
+                    </router-link>
+                    <router-link to="/drivernotification" class="nav-link">
+                      <i class="fa fa-user text-info"></i><span class="nav-link-text">Driver Notification</span>
+                    </router-link>
                     <router-link to="/admin" class="nav-link">
                       <i class="fa fa-user text-info"></i><span class="nav-link-text">Admin</span>
                     </router-link>

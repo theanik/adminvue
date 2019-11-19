@@ -93,6 +93,16 @@ export default new Router({
           name: 'promocode',
           component: () => import(/* webpackChunkName: "demo" */ './views/Promocode.vue')
         },
+        {
+          path: '/usernotification',
+          name: 'usernotification',
+          component: () => import(/* webpackChunkName: "demo" */ './views/UserNotification.vue')
+        },
+        {
+          path: '/drivernotification',
+          name: 'drivernotification',
+          component: () => import(/* webpackChunkName: "demo" */ './views/DriverNotification.vue')
+        },
       ]
     },
     
